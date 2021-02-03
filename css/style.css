@@ -1,0 +1,105 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;}
+
+main {
+    background-color: LightYellow;
+    border: 1px solid black;
+    margin: 1% 2% 1%;}
+
+button {
+    margin-top: 10px;}
+
+.juego{
+    padding: 0 2%;
+    display:flex}
+
+#sudoku {
+    width: 45%;}
+
+#instrucciones {
+    width: 50%;}
+
+#sudoku h1 {
+    
+    padding-left: 5%;
+    margin-bottom: 2%}    
+
+#instrucciones h1 {
+    text-align: center;
+    margin-bottom: 4%}    
+
+#instrucciones h2 {
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#instrucciones p {
+    margin-bottom: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace}
+
+#tabla {
+    padding-left: 5%;
+    width: 95%;}
+
+.total{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;}
+
+.total div{
+    display: grid;
+    grid-template-columns: 32.65% 32.65% 32.65%;}
+
+.total div input {
+    border: 0.5px solid black;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    background-color: lightgrey;}
+
+.separador {
+    height: 0.2em;}
+
+footer {
+    height: 5%;
+    line-height: 35px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;}
+
+.botones {
+    height: auto;
+    margin-top: -15px;
+    padding-left: 5%;
+    width: 150%}
+
+button {
+    height: 25px;
+    width: 8%;
+/*     text-transform: uppercase; */
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.10vw}
+
+#resolucion {
+    display: none}
+
+#limpiar {
+    margin-left: 2%;}
+
+h1 {
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.animacion {
+    margin-top: 1%;
+    background-image: url('../img/nenejugando.jpg');
+    height: 280px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;}
